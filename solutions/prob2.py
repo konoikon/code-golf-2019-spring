@@ -1,0 +1,1 @@
+print(sum(c!=e for c,e in zip(str(bin(int(input())))[2:].zfill(31),str(bin(int(input())))[2:].zfill(31))))

@@ -1,0 +1,1 @@
+from sympy import isprime;print(*[f'{a} {a+2}\n'for a in range(10**5)if isprime(a)and isprime(a+2)])
